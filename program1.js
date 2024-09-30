@@ -4,7 +4,10 @@
  */
 var isValid = function(s) {
     
-let 
+const bracketMap={
+    ')':'(',
+    
+}
 
 
 };
