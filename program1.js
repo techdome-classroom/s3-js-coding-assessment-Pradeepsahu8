@@ -13,6 +13,7 @@ const bracketMap={
 
 const stack =[];
 for(let char of s )
+{
 if(bracketMap[char])
 {
     const topElement = stack.pop()|| '#';
@@ -24,6 +25,7 @@ if(bracketMap[char])
     stack.push(char);
 }
 
+}
 };
 
 module.exports = { isValid };
