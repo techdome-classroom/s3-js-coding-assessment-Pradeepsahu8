@@ -12,6 +12,7 @@ const bracketMap={
 };
 
 const stack =[];
+for(let char of s )
 if(bracketMap[char])
 {
     const topElement = stack.pop()|| '#';
