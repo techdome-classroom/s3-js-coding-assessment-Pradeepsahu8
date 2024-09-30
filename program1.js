@@ -14,7 +14,7 @@ const bracketMap={
 const stack =[];
 if(bracketMap[char])
 {
-    const topElement = 
+    const topElement = stack.pop()
 }
 
 };
