@@ -19,6 +19,8 @@ if(bracketMap[char])
     {
         return false;
     }
+}else{
+    stack.push(char)
 }
 
 };
