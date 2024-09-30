@@ -30,6 +30,8 @@ var romanToInt = function(s) {
     }
 
     return total;
+
+    
 };
 
 
