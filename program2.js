@@ -17,8 +17,6 @@ var romanToInt = function(s) {
     let total = 0;
     let prevValue = 0;
 
-    let total = 0;
-    let prevValue = 0;
 
     for (let char of s) {
         const value = romanToValue[char];
