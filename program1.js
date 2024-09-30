@@ -26,6 +26,7 @@ if(bracketMap[char])
 }
 
 }
+return stack.length === 0;
 };
 
 module.exports = { isValid };
