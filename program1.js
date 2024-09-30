@@ -15,7 +15,7 @@ const stack =[];
 if(bracketMap[char])
 {
     const topElement = stack.pop()|| '#';
-    if(bracketMap[char])
+    if(bracketMap[char]!==top)
 }
 
 };
