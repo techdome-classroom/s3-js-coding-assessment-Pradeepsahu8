@@ -17,6 +17,22 @@ var romanToInt = function(s) {
     let total = 0;
     let prevValue = 0;
 
+    let total = 0;
+    let prevValue = 0;
+
+    for (let char of s) {
+        const value = romanToValue[char];
+        // If the current value is greater than the previous value,
+        // we need to subtract twice the previous value (as it was added before)
+        if (value > prevValue) {
+            total += value - 2 * prevValue;
+        } else {
+            total += value;
+        }
+        prevValue = value;
+    }
+
+    return total;
 };
 
 
